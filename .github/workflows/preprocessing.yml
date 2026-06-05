@@ -26,7 +26,7 @@ jobs:
 
       - name: Run Preprocessing
         run: |
-          cd preprocessing
+          cd Preprocessing
           python automate_Hana-Fithri-Sabiila.py
 
       - name: Upload Processed Dataset
